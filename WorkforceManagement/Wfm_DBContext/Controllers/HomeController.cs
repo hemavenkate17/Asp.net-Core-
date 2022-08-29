@@ -23,9 +23,6 @@ namespace Wfm_DBContext.Controllers
 
         public IActionResult Index()
         {
-           
-            /*var employees = _dbContext.tblEmployees;
-            return View(employees.ToList());*/
             return View(_dbContext.employees.ToList());
         }
     

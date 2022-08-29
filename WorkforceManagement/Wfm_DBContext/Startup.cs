@@ -22,14 +22,12 @@ namespace Wfm_DBContext
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
 
             var ConnectionString = Configuration.GetConnectionString("MySQLConnection");
-
-            //Entity Framework  
             services.AddDbContext<EFContext>(options => options.UseMySql(ConnectionString));
         }
 

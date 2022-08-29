@@ -16,12 +16,29 @@ namespace Wfm_DBContext.Models
 
         }
         public DbSet<Employee> employees { get; set; }
-/*        public DbSet<Skillmap> tblSkillmaps { get; set; }
+        public DbSet<Skillmap> skillmap { get; set; }
 
-        public DbSet<Skills> tblSkills { get; set; }
+        public DbSet<Skills> skills { get; set; }
 
-        public DbSet<Softlock> tblSoftlocks { get; set; }
-        public DbSet<Users> tblUsers { get; set; }*/
+        public DbSet<Softlock> softlock { get; set; }
+        public DbSet<Users> users { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder
+                .Entity<Skillmap>(
+                    eb =>
+                    {
+                        eb.HasNoKey();
+                    });
 
+            modelBuilder
+               .Entity<Users>(
+                   eb =>
+                   {
+                       eb.HasNoKey();
+                   });
+        }
+
+       
     }
 }

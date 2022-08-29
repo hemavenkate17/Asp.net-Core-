@@ -11,6 +11,7 @@ namespace Wfm_Models.Models
     {
         public int employee_id { get; set; }
 
+  /*      public virtual Employee Employee { get; set; }*/
         public string manager { get; set; }
         public DateTime reqdate  { get; set; }
 
