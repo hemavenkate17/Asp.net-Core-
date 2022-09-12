@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Wfm_DBContext" Path="D:\Asp.net Core Training Project\WorkforceManagement\Wfm_DBContext\wwwroot\" />
+  <ContentRoot BasePath="_content/Wfm_Models" Path="D:\Asp.net Core Training Project\WorkforceManagement\Wfm_Models\wwwroot\" />
+</StaticWebAssets>

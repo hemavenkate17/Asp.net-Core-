@@ -22,6 +22,7 @@ namespace Wfm_DBContext.Models
 
         public DbSet<Softlock> softlock { get; set; }
         public DbSet<Users> users { get; set; }
+      
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder

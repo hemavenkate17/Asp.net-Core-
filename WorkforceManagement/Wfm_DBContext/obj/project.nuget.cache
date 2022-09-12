@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rRyBSw7cLyXsY052t6ti/R3pFPPks2w6PzaTo1MWQklgKAwUFmvNqD9HaZa9fxd7nGDUbmcTA+raO4gImCvLHg==",
+  "dgSpecHash": "mujGcIaEuqR/X2rvubOgxaBIYJdhZEfOL7Cs6KzsqMkL912yue1wEM9w345wHXWDLQ6g2TV7lkxUP6eT6/erNQ==",
   "success": true,
   "projectFilePath": "D:\\Asp.net Core Training Project\\WorkforceManagement\\Wfm_DBContext\\Wfm_DBContext.csproj",
   "expectedPackageFiles": [
@@ -21,10 +21,14 @@
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.codeanalysis.razor\\3.1.0\\microsoft.codeanalysis.razor.3.1.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\3.3.1\\microsoft.codeanalysis.workspaces.common.3.3.1.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.data.sqlite.core\\3.1.0\\microsoft.data.sqlite.core.3.1.0.nupkg.sha512",
+    "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.0\\microsoft.dotnet.platformabstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.28\\microsoft.entityframeworkcore.3.1.28.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.28\\microsoft.entityframeworkcore.abstractions.3.1.28.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.28\\microsoft.entityframeworkcore.analyzers.3.1.28.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.0\\microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
+    "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\3.1.0\\microsoft.entityframeworkcore.sqlite.3.1.0.nupkg.sha512",
+    "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\3.1.0\\microsoft.entityframeworkcore.sqlite.core.3.1.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\1.0.6\\microsoft.entityframeworkcore.sqlserver.1.0.6.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.28\\microsoft.extensions.caching.abstractions.3.1.28.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.28\\microsoft.extensions.caching.memory.3.1.28.nupkg.sha512",
@@ -33,6 +37,7 @@
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.28\\microsoft.extensions.configuration.binder.3.1.28.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.28\\microsoft.extensions.dependencyinjection.3.1.28.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.28\\microsoft.extensions.dependencyinjection.abstractions.3.1.28.nupkg.sha512",
+    "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.0\\microsoft.extensions.dependencymodel.3.1.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.extensions.logging\\3.1.28\\microsoft.extensions.logging.3.1.28.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.28\\microsoft.extensions.logging.abstractions.3.1.28.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\microsoft.extensions.options\\3.1.28\\microsoft.extensions.options.3.1.28.nupkg.sha512",
@@ -78,6 +83,10 @@
     "C:\\Users\\hemalathav\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\runtime.win7-x64.runtime.native.system.data.sqlclient.sni\\4.0.1\\runtime.win7-x64.runtime.native.system.data.sqlclient.sni.4.0.1.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\runtime.win7-x86.runtime.native.system.data.sqlclient.sni\\4.0.1\\runtime.win7-x86.runtime.native.system.data.sqlclient.sni.4.0.1.nupkg.sha512",
+    "C:\\Users\\hemalathav\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
+    "C:\\Users\\hemalathav\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
+    "C:\\Users\\hemalathav\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",
+    "C:\\Users\\hemalathav\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.2\\sqlitepclraw.provider.dynamic_cdecl.2.0.2.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
@@ -150,6 +159,7 @@
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Users\\hemalathav\\.nuget\\packages\\system.text.json\\4.7.0\\system.text.json.4.7.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.threading.overlapped\\4.0.1\\system.threading.overlapped.4.0.1.nupkg.sha512",
@@ -162,5 +172,16 @@
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\hemalathav\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Wfm_DBContext depends on Microsoft.EntityFrameworkCore.Sqlite (>= 3.0.10) but Microsoft.EntityFrameworkCore.Sqlite 3.0.10 was not found. An approximate best match of Microsoft.EntityFrameworkCore.Sqlite 3.1.0 was resolved.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
