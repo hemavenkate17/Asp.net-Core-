@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ManytoMany_Relationship.Model;
 
 namespace ManytoMany_Relationship.Model
 {
@@ -36,5 +37,7 @@ namespace ManytoMany_Relationship.Model
         public DbSet<Skills> Skills { get; set; }
 
         public DbSet<Skillmaps> Skillmaps { get; set; }
+
+        public DbSet<ManytoMany_Relationship.Model.Employees_Skills> Employees_Skills { get; set; }
     }
 }

@@ -34,6 +34,8 @@ namespace ManytoMany_Relationship
         {
 
             services.AddControllers();
+            services.AddControllersWithViews();
+            services.AddRazorPages();
             var ConnectionString = Configuration.GetConnectionString("MySQLConnection");
             services.AddDbContext<Db_Context>(options => options.UseMySql(ConnectionString, new MySqlServerVersion(new Version(8, 0, 11))));
 
@@ -54,6 +56,8 @@ namespace ManytoMany_Relationship
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ManytoMany_Relationship v1"));
             }
 
+            app.UseStaticFiles();
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -62,7 +66,12 @@ namespace ManytoMany_Relationship
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=EmployeeView}/{action=Index}/{id?}");
                 endpoints.MapControllers();
+
+                endpoints.MapRazorPages();
             });
         }
     }

@@ -14,6 +14,14 @@ namespace ManytoMany_Relationship.Model
         public string name { get; set; }
        
         
-        public ICollection<Skillmaps> Skillmaps { get; set; }
+        public List<Skillmaps> Skillmaps { get; set; }
+    }
+
+    public class Skills_Employees
+    {
+        public int skillid { get; set; }
+        public string name { get; set; }
+        public List<string> Employees { get; set; }
+
     }
 }

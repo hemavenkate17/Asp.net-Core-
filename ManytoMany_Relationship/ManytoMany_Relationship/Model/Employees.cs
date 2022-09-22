@@ -22,15 +22,15 @@ namespace ManytoMany_Relationship.Model
         public decimal experience { get; set; }
         public int profile_id { get; set; }
     
-        public ICollection<Skillmaps> Skillmaps { get; set; }
+        public List<Skillmaps> Skillmaps { get; set; }
 
    
     }
-    public class Employeeswithskills
+    public class Employees_Skills
     {
         [Key]
         public int employee_id { get; set; }
-        public string employee_name { get; set; }
+        public string name { get; set; }
         public string status { get; set; }
         public string manager { get; set; }
         public string wfm_manager { get; set; }
