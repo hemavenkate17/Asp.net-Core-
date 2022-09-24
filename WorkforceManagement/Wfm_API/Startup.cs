@@ -13,7 +13,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Wfm_API.Helpers;
+using Wfm_API.Services;
 using Wfm_DBContext.Models;
 
 
@@ -23,6 +24,7 @@ namespace Wfm_API
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             
@@ -35,8 +37,21 @@ namespace Wfm_API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(MyAllowSpecificOrigins,
+                builder =>
+                {
+                    builder.WithOrigins("https://localhost:44391",
+                                        "https://localhost:44303"
+                                        )
+                                        .AllowAnyHeader()
+                                        .AllowAnyMethod();
+                });
+            });
             //  services.TryAddSingleton<IEmployeeService, EmployeeService>();
             //services.AddDbContext<EFContext>();
+            services.AddScoped<IUserService, UserService>();
             var ConnectionString = Configuration.GetConnectionString("MySQLConnection");
             services.AddDbContext<EFContext>(options => options.UseMySql(ConnectionString));
             services.AddSwaggerGen(c =>
@@ -60,6 +75,10 @@ namespace Wfm_API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(MyAllowSpecificOrigins);
+
+            app.UseMiddleware<JwtMiddleware>();
 
             app.UseEndpoints(endpoints =>
             {

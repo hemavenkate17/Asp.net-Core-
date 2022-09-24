@@ -4,7 +4,7 @@ Create database MyDatabase
 use MyDatabase
 
 CREATE TABLE employees (
-    employee_id int NOT NULL,
+    employee_id int NOT NULL Auto_increment,
     name varchar(50) NOT NULL,
     status varchar(50) NOT NULL,
     manager varchar(30),
@@ -16,13 +16,16 @@ CREATE TABLE employees (
     primary key (employee_id)
 );
 
-insert into employees values ( 1000,'Hemalatha', 'approved','Rohit','Deena','hemavenkate@gmail.com','Not Locked',2,1)
+
+insert into employees values (1000, 'Hemalatha', 'approved','Rohit','Deena','hemavenkate@gmail.com','Not Locked',2,1)
 insert into employees values ( 1001,'Vinoba', 'rejected','lokesh','Deepak','vinoba@gmail.com','Locked',3,2)
-insert into employees values ( 1002,'Bersy', 'approved','miryala','Gowtham','bersy@gmail.com','Not Locked',4,3)
+insert into employees values (1002, 'Bersy', 'approved','miryala','Gowtham','bersy@gmail.com','Not Locked',4,3)
 
 select * from employees
 
-CREATE TABLE users (
+
+  CREATE TABLE users (
+    Id int primary key not null auto_increment,
     username varchar(30) NOT NULL,
     password varchar(30) NOT NULL,
     name varchar(30) NOT NULL,
@@ -30,9 +33,9 @@ CREATE TABLE users (
     email text
 );
 
-insert into users values ('Karnan V' , '1234', 'Karnan','Software Engineer','karnan@gmail.com')
-insert into users values ('Venkate E' , '5678', 'Venkatesan','Trainee','venkate@gmail.com')
-insert into users values ('Laxmi V' , '7890', 'Laxmi','Test Engineer','laxmi@gmail.com')
+insert into users values (100,'Karnan V' , '1234', 'Karnan','Software Engineer','karnan@gmail.com')
+insert into users values (101,'Venkate E' , '5678', 'Venkatesan','Trainee','venkate@gmail.com')
+insert into users values (102,'Laxmi V' , '7890', 'Laxmi','Test Engineer','Hema@gmail.com')
 
 select * from users 
 
@@ -57,9 +60,12 @@ CREATE TABLE skillmap (
 
 insert into skillmap values (1000, 1)
 insert into skillmap values (1001, 2)
+insert into skillmap values (1001, 3)
 insert into skillmap values (1002, 3)
 
 select * from skillmap 
+
+
 
 CREATE TABLE softlock (
 	employee_id int ,
@@ -67,7 +73,7 @@ CREATE TABLE softlock (
     reqdate date,
     status varchar(30),
     lastupdated date,
-    lockid int not null ,
+    lockid int not null auto_increment ,
     requestmessage text,
     wfmremark text,
     managerstatus varchar(30),

@@ -32,12 +32,7 @@ namespace Wfm_DBContext.Models
                         eb.HasNoKey();
                     });
 
-            modelBuilder
-               .Entity<Users>(
-                   eb =>
-                   {
-                       eb.HasNoKey();
-                   });
+            
         }
 
        

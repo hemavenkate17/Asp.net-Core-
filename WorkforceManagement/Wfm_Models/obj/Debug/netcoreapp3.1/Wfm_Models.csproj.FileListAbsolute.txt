@@ -8,6 +8,7 @@ D:\Asp.net Core Training Project\WorkforceManagement\Wfm_Models\bin\Debug\netcor
 D:\Asp.net Core Training Project\WorkforceManagement\Wfm_Models\bin\Debug\netcoreapp3.1\Wfm_Models.pdb
 D:\Asp.net Core Training Project\WorkforceManagement\Wfm_Models\bin\Debug\netcoreapp3.1\Wfm_Models.Views.dll
 D:\Asp.net Core Training Project\WorkforceManagement\Wfm_Models\bin\Debug\netcoreapp3.1\Wfm_Models.Views.pdb
+D:\Asp.net Core Training Project\WorkforceManagement\Wfm_Models\obj\Debug\netcoreapp3.1\Wfm_Models.csproj.AssemblyReference.cache
 D:\Asp.net Core Training Project\WorkforceManagement\Wfm_Models\obj\Debug\netcoreapp3.1\Wfm_Models.GeneratedMSBuildEditorConfig.editorconfig
 D:\Asp.net Core Training Project\WorkforceManagement\Wfm_Models\obj\Debug\netcoreapp3.1\Wfm_Models.AssemblyInfoInputs.cache
 D:\Asp.net Core Training Project\WorkforceManagement\Wfm_Models\obj\Debug\netcoreapp3.1\Wfm_Models.AssemblyInfo.cs
